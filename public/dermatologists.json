@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Alice Carlson",
+        "expertise": "Surgical Dermatology",
+        "img": "https://image.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Dr. Elsie Blake",
+        "expertise": "Cosmetic Dermatology",
+        "img": "https://image.freepik.com/free-photo/pleased-young-female-doctor-wearing-medical-robe-stethoscope-around-neck-standing-with-closed-posture_409827-254.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Prof. Celia Tomlinson",
+        "expertise": "Dermatoimmunology",
+        "img": "https://image.freepik.com/free-photo/smiling-young-female-doctor-wearing-medical-robe-with-stethoscope-spreading-hands-isolated-green-background_141793-119266.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Dr. Carl Frost",
+        "expertise": "Dermatopathology and Oral Pathology Laboratory",
+        "img": "https://image.freepik.com/free-photo/hospital-healthcare-workers-covid-19-treatment-concept-young-doctor-scrubs-making-daily-errands-clinic-listening-patient-symptoms-look-camera-professional-physician-curing-diseases_1258-57233.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dr. Frederick Row",
+        "expertise": "Medical Dermatology",
+        "img": "https://image.freepik.com/free-photo/doctor-standing-hospital-premises_107420-84762.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Dr. Margaret Law",
+        "expertise": "Pediatric Dermatology",
+        "img": "https://image.freepik.com/free-photo/smiling-young-female-doctor-wearing-medical-robe-with-stethoscope-spreading-hand-isolated-green-wall_141793-86098.jpg"
+    }
+
+
+]

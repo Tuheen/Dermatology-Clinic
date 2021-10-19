@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Dermatology Care",
+        "fee": "1000",
+        "duration": "3",
+        "description": "Dermatologists are skin care doctors who have expertise in the care of normal skin, and in the diagnosis and treatment of diseases of the skin, hair, and nails. In addition, dermatologists are knowledgeable in the management of cosmetic disorders of the skin (such as hair loss and scars).",
+        "img": "https://image.freepik.com/free-photo/closeup-portrait-beautiful-woman-during-cosmetology-therapy-beauty-salon-professional-dermatology-procedures-lifting-rejuvenation-modern-devices-healthcare_197531-2785.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Laser Therapy",
+        "fee": "3000",
+        "duration": "1",
+        "description": "Laser therapy treatments may be used to remove warts, moles, sun spots, tattoos, acne scars, blemishes, wrinkles, or unwanted hair.",
+        "img": "https://image.freepik.com/free-photo/woman-cosmetology-studio-laser-hair-removal_1157-34031.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Fillers & Injectables",
+        "fee": "1500",
+        "duration": "2",
+        "description": "Injectable dermal fillers can plump thin lips, enhance shallow contours, soften facial creases, remove wrinkles and improve the appearance of scars.",
+        "img": "https://image.freepik.com/free-photo/woman-doing-procedure-improvements-face-skin_7502-7253.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Chemical Peels",
+        "fee": "1000",
+        "duration": "2",
+        "description": "Chemical peels remove damaged skin. Peels can help rejuvenate new skin and reduce signs of aging.",
+        "img": "https://image.freepik.com/free-photo/african-girl-woman-couch-lady-beautician_1157-48236.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Dermabrasion",
+        "fee": "1000",
+        "duration": "1",
+        "description": "This exfoliating technique can reduce the appearance of fine lines, age spots, acne scars, and precancerous skin patches.",
+        "img": "https://image.freepik.com/free-photo/woman-having-beauty-treatment-procedures-salon_1303-28394.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Surgical Excision",
+        "fee": "2500",
+        "duration": "2",
+        "description": "A dermatologist may perform a surgical excision to remove growths like moles, skin tags, and lesions. This is usually done with local anesthesia so you don’t feel pain.",
+        "img": "https://image.freepik.com/free-photo/woman-visiting-cosmetologist-making-rejuvenation-procedures_1303-26058.jpg"
+    }
+]
