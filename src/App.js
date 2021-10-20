@@ -12,6 +12,7 @@ import DocDetails from './Pages/ClickDetails/DocDetails/DocDetails';
 import AboutUs from './Pages/Home/AboutUs/AboutUs';
 import SetAppointment from './Pages/Home/SetAppointment/SetAppointment';
 import PricingForm from './Pages/Home/PricingForm/PricingForm';
+import Footer from './Pages/Shared/Footer/Footer';
 
 
 
@@ -50,6 +51,7 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
+          <Footer></Footer>
         </Router>
       </AuthProvider>
     </div>
