@@ -54,7 +54,7 @@ const Login = () => {
                     </div>
                 </form>
             </div>
-            <h2>Login page</h2>
+            
             <button onClick={handleGoogleLogin} className="btn btn-warning">Google Sign-in</button>
         </div>
     );

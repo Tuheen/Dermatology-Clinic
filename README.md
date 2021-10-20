@@ -1,4 +1,21 @@
 # Getting Started with Create React App
+Live Site Link: https://project-dermacare.firebaseapp.com/
+
+Description:
+1. This site has 5 basic sections
+2. 2 of them are private routes, it requires login
+3. its a skin care consultation app
+4. For login process you can either use usual email or google sign up process
+5. It has a pricing chart 
+
+
+
+
+
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
