@@ -10,6 +10,10 @@ import AuthProvider from './Contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/Login/PrivateRoute/PrivateRoute';
 import DocDetails from './Pages/ClickDetails/DocDetails/DocDetails';
 import AboutUs from './Pages/Home/AboutUs/AboutUs';
+import SetAppointment from './Pages/Home/SetAppointment/SetAppointment';
+import PricingForm from './Pages/Home/PricingForm/PricingForm';
+
+
 
 function App() {
   return (
@@ -36,6 +40,12 @@ function App() {
             <Route path="/aboutus">
               <AboutUs></AboutUs>
             </Route>
+            <Route path="/appointment">
+              <SetAppointment></SetAppointment>
+            </Route>
+            <PrivateRoute path="/pricing">
+              <PricingForm></PricingForm>
+            </PrivateRoute>
             <Route path="*">
               <NotFound></NotFound>
             </Route>

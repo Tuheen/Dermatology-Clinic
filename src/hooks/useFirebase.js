@@ -18,11 +18,7 @@ const useFirebase = () => {
     const signInUsingGoogle = () => {
         setIsLoading(true);
         const googleProvider = new GoogleAuthProvider();
-        signInWithPopup(auth, googleProvider)
-        .then(result => {
-            setUser(result.user);
-        })
-        .finally(() => setIsLoading(false));
+            return signInWithPopup(auth, googleProvider);
 
     }
 
@@ -65,6 +61,7 @@ const useFirebase = () => {
             setError(error.message);
         })
     }
+
     useEffect( () => {
         const unsubscribed = onAuthStateChanged(auth, user => {
             if (user) {
@@ -93,6 +90,7 @@ const useFirebase = () => {
         isLoading,
         toggleLogin,
         isLogIn,
+        setIsLoading,
         signInUsingGoogle,
         logOut
 

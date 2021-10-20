@@ -4,19 +4,19 @@ import useAuth from '../../../hooks/useAuth';
 import { useState } from 'react';
 
 const Login = () => {
-    const { signInUsingGoogle, handleEmailChange, handlePasswordChange, handleRegistration, toggleLogin, isLogIn } = useAuth();
+    const { setIsLoading, signInUsingGoogle, handleEmailChange, handlePasswordChange, handleRegistration, toggleLogin, isLogIn } = useAuth();
 
-    // const location = useLocation();
-    // const history = useHistory();
-    // const redirect_uri = location.state?.from || '/home';
+    const location = useLocation();
+    const history = useHistory();
+    const redirect_uri = location.state?.from || '/home';
 
-    // const handleGoogleLogin = () => {
-    //     signInUsingGoogle()
-    //         .then(result => {
-    //             history.push(redirect_uri);
-    //         })
-    //     }
-
+    const handleGoogleLogin = () => {
+        signInUsingGoogle()
+            .then(result => {
+                history.push(redirect_uri);
+            })
+            .finally(() => setIsLoading(false));
+        }
 
     return (
         <div>
@@ -55,7 +55,7 @@ const Login = () => {
                 </form>
             </div>
             <h2>Login page</h2>
-            <button onClick={signInUsingGoogle} className="btn btn-warning">Google Sign-in</button>
+            <button onClick={handleGoogleLogin} className="btn btn-warning">Google Sign-in</button>
         </div>
     );
 };
