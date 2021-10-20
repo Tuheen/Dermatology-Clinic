@@ -9,8 +9,8 @@ const Dermatologists = () => {
         .then(data => setDermatologists(data));
     }, [])
     return (
-        <div id="dermatologists">
-            <h2 className='text-primary'> Our Popular <br /> <span>Dermatologists</span></h2>
+        <div id="dermatologists" className="my-5">
+            <h2 className='text-info bg-white mb-3 font-weight-light'> Our Popular <br /> <span className="bg-info px-5 rounded">Dermatologists</span></h2>
             <div className="row">
             {
                 dermatologists.map(dermatologist => <Dermatologist

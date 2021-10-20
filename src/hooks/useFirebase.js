@@ -13,6 +13,7 @@ const useFirebase = () => {
     const [error, setError] = useState('');
     const [isLogIn, setIsLogIn] = useState(false);
 
+
     const auth = getAuth();
 
     const signInUsingGoogle = () => {
@@ -81,6 +82,8 @@ const useFirebase = () => {
             .then( () => { })
             .finally(() => setIsLoading(false));
     }
+    
+
 
     return {
         user,

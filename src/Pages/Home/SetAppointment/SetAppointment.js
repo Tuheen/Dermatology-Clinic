@@ -4,7 +4,7 @@ import './SetAppointment.css';
 
 const SetAppointment = () => {
     return (
-        <div id="pricing" className="my-4 py-2">
+        <div id="pricing" className="my-5 py-5">
             <h2 className="text-primary">Service Pricelist</h2>
             <p className="pricelist-text">Explore our budget-friendly service pricelist & enjoy premium benefits regularly.</p>
             <div className="mx-5">

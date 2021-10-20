@@ -3,44 +3,46 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="bg-info mt-5 py-5 border border-dark" id="footer">
-            <div className="d-flex bg-info justify-content-center mx-5 px-5 footer" id="footer">
-                <div className="card bg-info mt-5mr-5" style={{width: '18rem'}}>
-                    <div className="card-header text-white font-weight-bold">
-                        Services
+        <div className="" id="footer">
+            <div>
+                <div className="card-deck">
+                    <div className="card border-0">
+                        <div className="card-body">
+                            <h5 className="card-title font-weight-bold text-info">Services</h5>
+                            <div>
+                                <h6 className="text-info font-weight-light">Dermatology Care</h6>
+                                <h6 className="text-info font-weight-light">Laser Services</h6>
+                                <h6 className="text-info font-weight-light">Fillers & Injectables</h6>
+                                <h6 className="text-info font-weight-light">Aesthetic Services</h6>
+                            </div>
+                        </div>
                     </div>
-                    <ul className="list-group list-group-flush">
-                        <li className="list-group-item mini-card-body text-white">Dermatology Care</li>
-                        <li className="list-group-item mini-card-body text-white">Laser Services</li>
-                        <li className="list-group-item mini-card-body text-white">Aesthetic Services</li>
-                        <li className="list-group-item mini-card-body text-white">Fillers & Injectables</li>
-                    </ul>
-                </div>
-                <div className="card bg-info mid-footer" style={{width: '18rem'}}>
-                    <div className="card-header text-white font-weight-bold">
-                        Company
+                    <div className="card border-0">
+                        <div className="card-body">
+                            <h5 className="card-title font-weight-bold text-info">Company</h5>
+                            <div>
+                                <h6 className="text-info font-weight-light">Services</h6>
+                                <h6 className="text-info font-weight-light">About Us</h6>
+                                <h6 className="text-info font-weight-light">Dermatologists</h6>
+                                <h6 className="text-info font-weight-light">Contact Us</h6>
+                            </div>
+                        </div>
                     </div>
-                    <ul className="list-group list-group-flush">
-                        <li className="list-group-item mini-card-body text-white">Service</li>
-                        <li className="list-group-item mini-card-body text-white">About Us</li>
-                        <li className="list-group-item mini-card-body text-white">Pricing</li>
-                        <li className="list-group-item mini-card-body text-white">Contact Us</li>
-                    </ul>
-                </div>
-                <div className="card bg-info text-white ml-5" style={{width: '18rem'}}>
-                    <div className="card-header font-weight-bold">
-                        Our Social Media
+                    <div className="card border-0">
+                        <div className="card-body">
+                            <h5 className="card-title font-weight-bold text-info">Our Social Media</h5>
+                            <div>
+                                <h6 className="text-info font-weight-light">YouTube</h6>
+                                <h6 className="text-info font-weight-light">Instagram</h6>
+                                <h6 className="text-info font-weight-light">Facebook</h6>
+                                <h6 className="text-info font-weight-light">Twitter</h6>
+                            </div>
+                        </div>
                     </div>
-                    <ul className="list-group list-group-flush">
-                        <li className="list-group-item mini-card-body text-white">YouTube</li>
-                        <li className="list-group-item mini-card-body text-white">Instagram</li>
-                        <li className="list-group-item mini-card-body text-white">Facebook</li>
-                        <li className="list-group-item mini-card-body text-white">Twitter</li>
-                    </ul>
                 </div>
             </div>
             <div className="bg-info">
-                <h6 className="copyright text-white">Copyright Dermacare</h6>
+                <h6 className="copyright py-2 text-white">Copyright Dermacare</h6>
             </div>
         </div>
     );
