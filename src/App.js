@@ -13,6 +13,8 @@ import AboutUs from './Pages/Home/AboutUs/AboutUs';
 import SetAppointment from './Pages/Home/SetAppointment/SetAppointment';
 import PricingForm from './Pages/Home/PricingForm/PricingForm';
 import Footer from './Pages/Shared/Footer/Footer';
+import AddService from './Pages/AddService/AddService';
+import ManageServices from './Pages/Home/ManageServices/ManageServices';
 
 
 
@@ -47,6 +49,12 @@ function App() {
             <PrivateRoute path="/pricing">
               <PricingForm></PricingForm>
             </PrivateRoute>
+            <Route path="/addService">
+              <AddService></AddService>
+            </Route>
+            <Route path='/manageServices'>
+              <ManageServices></ManageServices>
+            </Route>
             <Route path="*">
               <NotFound></NotFound>
             </Route>

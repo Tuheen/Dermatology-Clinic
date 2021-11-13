@@ -1,3 +1,7 @@
 .banner{
     height: 10%;
 }
+.banner-tag{
+    color: rgb(216, 19, 134);
+    font-weight: bold;
+}

@@ -1,19 +1,24 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 
 const Booking = () => {
     const {serviceId} = useParams();
+    const [service, setService] = useState({})
+
+    useEffect( () => {
+        fetch(`http://localhost:5000/services/${serviceId}`)
+        .then(res => res.json())
+        .then(data => setService(data));
+    }, [])
 
     return (
         <div className="">
-            <div className="card text-white bg-warning mb-3">
-                <div className="card-header">Please submit your information</div>
-                <div className="card-body">
-                    <label htmlFor="Your Name"> Your Name</label>
-                    <input type="text" />
-                    <input value="submit" />
-                </div>
-            </div>
+            <h2>
+                Details of: {service.name}
+            </h2>
+            <h2>
+               this is: {serviceId}
+            </h2>
         </div>
     );
 };
